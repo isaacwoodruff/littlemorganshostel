@@ -8,13 +8,6 @@ header {
     position: absolute;
 }
 
-/* Position hero image at top of page */
-.hero {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
 nav a, nav span, wrapper span{
     color: #fff !important;
 }
@@ -34,5 +27,11 @@ nav a, nav span, wrapper span{
     .navbar {
         background-color: #444 !important;
         text-align: center;
+    }
+    
+    /* Position hero image under navbar for smaller screens */
+    .hero-img {
+        position: absolute;
+        top: 70px;
     }
 }
