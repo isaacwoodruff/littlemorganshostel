@@ -3,6 +3,19 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+.horizontal-line {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid black;
+    width: 80%;
+}
+
+
+/* Allows heading text to be centered and adds bottom margin */
+.heading-center {
+    margin: 0 auto 45px auto;
+}
+
 /********** Navbar/ header **********/
 /* Position header/navbar in front of the hero image */
 header {
@@ -24,11 +37,12 @@ nav a, nav span, wrapper span{
     vertical-align: sub;
 }
 
-/********** Main Section **********/
+/********** Hero Section **********/
 .hero-wrapper {
     position: relative;
 }
 
+/* position text in center of the hero image */
 .hero-text {
     position: absolute;
     top: 50%;
@@ -39,6 +53,16 @@ nav a, nav span, wrapper span{
     font-size: 5em !important;
 }
 
+/********** Welcome Section **********/
+.welcome {
+    margin: 70px 10px 0 20px;
+}
+
+/********** Facilities Section **********/
+.facilities p {
+    margin-top: 20px;
+}
+
 @media (max-width: 768px) {
     /* Darken navbar on smaller screens */
     .navbar {
@@ -46,9 +70,9 @@ nav a, nav span, wrapper span{
         text-align: center;
     }
     
-    /* Position hero image under navbar for smaller screens */
-    .hero-img {
-        position: absolute;
+    /* Position hero image and all content below navbar for smaller screens */
+    .main-wrapper {
+        position: relative;
         top: 70px;
     }
 }
