@@ -1,15 +1,23 @@
 /********** Global styles **********/
 body {
     font-family: 'Nanum Gothic', sans-serif;
+    background: #d3ddd0;
 }
 
 .horizontal-line {
     margin-top: 50px;
     margin-bottom: 50px;
-    border-top: 1px solid black;
+    border-top: 1px solid #000;
     width: 80%;
+    max-width: 600px;
 }
 
+/* Sets max width to 700px */
+.max-width-700 {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
 
 /* Allows heading text to be centered and adds bottom margin */
 .heading-center {
@@ -51,6 +59,16 @@ nav a, nav span, wrapper span{
     color: #fff;
     font-family: 'Rancho', cursive;
     font-size: 5em !important;
+}
+
+/********** Main Section **********/
+.main-wrapper {
+    background: white;
+    max-width: 800px;
+    margin: auto;
+    margin-top: -50px;
+    padding-top: 50px;
+    color: #000;
 }
 
 /********** Welcome Section **********/
