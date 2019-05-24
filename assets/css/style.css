@@ -105,3 +105,50 @@ nav a, nav span, wrapper span{
         top: 70px;
     }
 }
+
+/********** Review Section **********/
+
+/********** Fill in arrow indicators in white **********/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    margin-right: 50%;
+}
+
+/********** Fill in arrow indicators in white **********/
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    margin-left: 50%;
+}
+
+/********** Sets a height for the carousel **********/
+.carousel-inner {
+    height: 300px;
+}
+
+/********** Stops text from being covered by the arrow indicators of the carousel **********/
+.carousel-item {
+    padding-right: 50px;
+}
+
+/********** Big quotes from https://stackoverflow.com/questions/27426045/big-quotation-marks-styled-in-html-css/27426944 **********/
+blockquote {
+    border:none;
+    margin-bottom:-30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote h5 {
+    font-size:21px;
+}
+
+blockquote h5:before { 
+    font-family:Georgia, "Times New Roman", Times, serif;
+    content: open-quote;
+    font-weight: bold;
+    font-size:100px;
+}
+
+blockquote p {
+    margin-top: 50px;
+    padding: 0 !important;
+}
