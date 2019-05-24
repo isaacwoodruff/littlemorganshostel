@@ -1,7 +1,10 @@
 /********** Global styles **********/
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    background: #d3ddd0;
+}
+
+h2 {
+    font-weight: bold;
 }
 
 .horizontal-line {
@@ -10,6 +13,10 @@ body {
     border-top: 1px solid #000;
     width: 80%;
     max-width: 600px;
+}
+
+.btn-width-standard {
+    width: 240px;
 }
 
 /* Sets max width to 700px */
@@ -71,9 +78,13 @@ nav a, nav span, wrapper span{
     color: #000;
 }
 
+.main-wrapper p, .main-wrapper h2 {
+    padding: 0 50px;
+}
+
 /********** Welcome Section **********/
 .welcome {
-    margin: 70px 10px 0 20px;
+    margin-top: 70px;
 }
 
 /********** Facilities Section **********/
