@@ -38,18 +38,28 @@ header {
     position: absolute;
 }
 
-nav a, nav span, wrapper span{
+nav a, nav span, .wrapper span{
     color: #fff !important;
 }
 
-.wrapper {
-    font-size: 1.8em;
+.wrapper span{
+    font-size: 1.5em;
     font-family: 'Rancho', cursive;
 }
 
 /* Align icon in navbar */
 .navbar-brand img {
     vertical-align: sub;
+}
+
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-link:hover {
+    color: #aef0e0 !important;
+    text-decoration: underline;
 }
 
 /********** Hero Section **********/
@@ -90,20 +100,6 @@ nav a, nav span, wrapper span{
 /********** Facilities Section **********/
 .facilities p {
     margin-top: 20px;
-}
-
-@media (max-width: 768px) {
-    /* Darken navbar on smaller screens */
-    .navbar {
-        background-color: #444 !important;
-        text-align: center;
-    }
-    
-    /* Position hero image and all content below navbar for smaller screens */
-    .main-wrapper {
-        position: relative;
-        top: 70px;
-    }
 }
 
 /********** Review Section **********/
@@ -152,3 +148,31 @@ blockquote p {
     margin-top: 50px;
     padding: 0 !important;
 }
+
+/********** Contact Section **********/
+.form-control:focus {
+    border-color: #7e4af3b3;
+    box-shadow: 0px 1px 1px rgba(126, 94, 94, 0.18) inset, 0px 0px 5px rgba(0, 93, 255, 0.49);
+}
+
+@media (max-width: 767px) {
+    /********** Darken navbar on smaller screens **********/
+    .navbar {
+        background-color: #000000e6 !important;
+        text-align: center;
+    }
+    /********** Fix navbar at top of screen medium and below devices **********/
+    .navbar-fixed-top-sm {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    /********** Sets height for carousel on extra small devices **********/
+    .carousel .carousel-inner {
+        height: 500px;
+    }
+}
+
