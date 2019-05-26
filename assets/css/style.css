@@ -1,4 +1,9 @@
 /********** Global styles **********/
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -179,6 +184,7 @@ blockquote p {
 /********** Footer Section **********/
 
 /********** Place footer at the bottom of the page **********/
+
 footer {
     margin-bottom: -30px;
     background-color: #1d1d1d;
@@ -186,12 +192,14 @@ footer {
 }
 
 /********** Set a max width for the footer and centers it **********/
+
 footer .row {
     max-width: 1000px;
     margin: auto;
 }
 
 /********** Change horizontal line to white **********/
+
 footer .horizontal-line {
     border-top: 1px solid #FFF;
 }
