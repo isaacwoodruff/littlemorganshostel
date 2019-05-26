@@ -133,3 +133,22 @@ I designed the wireframe for a mobile version of the site. It helped me a lot to
 - [HTML Validator](https://validator.w3.org/)
     - The project used the **HTML Validator** to validate the html.
 
+## Deployment
+
+Cloud9 IDE was used to develop the site and Github Pages was used to host it. The deployed site is automatically updated through the master branch when new commits are made.
+
+The deployment process was as follows:
+1. On GitHub, navigate to the projects repository.
+2. Under the repository name click Settings.
+3. Use the Select source drop-down menu to select master branch as the GitHub Pages publishing source.
+4. Click Save.
+
+To create a local repository see the following steps:
+1. On Github navigate to the main page of the repository.
+2. Under the repository name click Clone or download.
+3. In the 'Clone with HTTPs section', copy the clone URL for the repository.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL that was copied in Step 3.
+    `git clone https://github.com/isaacwoodruff/littlemorganshostel.git`
+7. Press Enter and the local clone will be created.
