@@ -150,5 +150,33 @@ To create a local repository see the following steps:
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL that was copied in Step 3.
+
     `git clone https://github.com/isaacwoodruff/littlemorganshostel.git`
+    
 7. Press Enter and the local clone will be created.
+
+## Credits
+
+### Content
+
+Some code for the carousel in the reviews section of the site was taken from a tutorial. The link for the tutorial is [here](https://www.youtube.com/watch?v=DEwJSu90j4E). I can't find his full name anywhere but his YouTube channel is called [tanzTalks.tech](https://www.youtube.com/channel/UCMz232hZ7fD75uGWhuLNjtA/).
+
+The code for the big quatation marks are from [StackOverflow](https://stackoverflow.com/) by a person called [Kuba Rakoczy](https://stackoverflow.com/users/4339212/kuba-rakoczy). The link for the code is [here](https://stackoverflow.com/questions/27426045/big-quotation-marks-styled-in-html-css/27426944).
+
+### Media
+
+The volcano.png image used for the logo and the favicon was taken from [here](https://www.flaticon.com/free-icon/volcano_1497631).
+
+The photo of the room was taken by [Karim](https://www.instagram.com/karim9lives/). The original can be found [here](https://www.instagram.com/p/4yJkk-s8td/).
+
+The photo of the food for the restaurant section was taken from [Striped Spatula](https://stripedspatula.com/2015-recipe-rewind/). The original can be found [here](https://farm6.staticflickr.com/5811/21433242912_4a9e4ba6ac_b.jpg).
+
+The photo for the bar section was taken from [Trip Advisor](https://www.tripadvisor.ie/Hotel_Review-g1443291-d1198778). The original can be found [here](https://media-cdn.tripadvisor.com/media/photo-w/13/a4/29/2e/little-morgan-s.jpg).
+
+The hero photo was taken by me. 
+
+### Acknowledgements
+
+The [getBootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) site helped me out tons with their documentation.
+
+I would like to thank Anna Greaves (CSS Fundamental Lead at the Code Institute) and my mentor Ravi Lakhotia for their feedback, tips, and advice throughout the project.
