@@ -89,37 +89,37 @@ I designed the wireframe for a mobile version of the site. It helped me a lot to
 
 ## Testing
 
-1. Book a room:
+1. **Book a room:**
     1. Click the Reservation link in the navigation bar and it opens a new tab to HostelWorld.com
     2. Click the BOOK A ROOM button above the reviews section and it opens a tew tab to HostelWorld.com
     
-2. Review section:
+2. **Review section:**
     1. Scroll down to the reviews section and click the right indicator, this brings up the next review
     2. Click the left indicator, this brings up the previous review
 
-3. Contact form:
+3. **Contact form:**
     1. Click the contact us link in the navigation bar which scrolls to the contact form
     2. Try to submit the empty form to make sure that an error message appears about the required fields
     3. Try to submit the form with an incorrect email address and make sure that an error message appears for the email input
 
-4. Verify links:
+4. **Verify links:**
     1. Click on every single link in the navbar, all scroll to relevant sections except Reservation link which opens new tab to HostelWorld.com
     2. Click on BOOK A ROOM button which opens new tab to HostelWorld.com
     3. Click on all three social icons in the footer which open up each relevant link in a new tab
 
-5. Embeded video:
+5. **Embeded video:**
     1. Click play on the embeded YouTube video which plays without error
 
-6. Responsiveness:
+6. **Responsiveness:**
     1. Use DevTools in Google Chrome and check that everything adjusts to the new screen sizes for desktop, tablet, and mobile
 
-7. Smooth scroll:
+7. **Smooth scroll:**
     1. Click on each navigation bar link, this scrolls along the page to the relavant sections with a 'smooth scrolling' effect
 
-8. CSS and HTML Validation:
+8. **CSS and HTML Validation:**
     1. I used [CSS Validator](https://jigsaw.w3.org/css-validator/) and [HTML Validator](https://validator.w3.org/) to validate the projects code
 
-8. Cross browser compatibility:
+8. **Cross browser compatibility:**
     1. I used [Browserling](https://www.browserling.com/) to test across multiple browsers which include Firefox, Chrome, Safari, and Internet Explorer
 
 ### Testing Tools Used
