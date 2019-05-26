@@ -35,24 +35,24 @@ I designed the wireframe for a mobile version of the site. It helped me a lot to
 ## Features
 
 ### Existing Features
-**Responsive and fixed-top navbar:** Fully responsive navbar with a fixed-top ONLY on smaller devices.
+* **Responsive and fixed-top navbar:** Fully responsive navbar with a fixed-top ONLY on smaller devices.
 
-**Smooth scrolling:** Smooth scrolling animation when a link is clicked.
+* **Smooth scrolling:** Smooth scrolling animation when a link is clicked.
 
-**Embeded YouTube video:** Allows users to watch what the local area around the hostel is like.
+* **Embeded YouTube video:** Allows users to watch what the local area around the hostel is like.
 
-**BOOK A ROOM button:** Is a call to action that prompts users to book a room after seeing pictures of the hostel.
+* **BOOK A ROOM button:** Is a call to action that prompts users to book a room after seeing pictures of the hostel.
 
-**Carousel:** Allows users to read the best reviews presented in a clean, minimal way.
+* **Carousel:** Allows users to read the best reviews presented in a clean, minimal way.
 
-**Contact form:** Lets users contact the hostel by filling out a contact form.
+* **Contact form:** Lets users contact the hostel by filling out a contact form.
 
 
 ### Features Left to Implement
 
-**Gallery grid:** A grid of photos that the user can click on the see more of the hostel and surrounding area.
+* **Gallery grid:** A grid of photos that the user can click on the see more of the hostel and surrounding area.
 
-**Functional contact form:** The current contact form is unable to send data. This functionality still needs to be implemented.
+* **Functional contact form:** The current contact form is unable to send data. This functionality still needs to be implemented.
 
 ## Technologies Used
 
