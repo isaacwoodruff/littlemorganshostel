@@ -122,6 +122,8 @@ I designed the wireframe for a mobile version of the site. It helped me a lot to
 8. **Cross browser compatibility:**
     1. I used [Browserling](https://www.browserling.com/) to test across multiple browsers which include Firefox, Chrome, Safari, and Internet Explorer
 
+I met the needs of the user by providing ease of access to book a room through the navigation bar, what the rooms and facilities look like with information for each, a simple contact form and contact info, and a minimal design reviews section.
+
 ### Testing Tools Used
 
 - [Browserling](https://www.browserling.com/)
