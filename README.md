@@ -5,7 +5,7 @@ This is a fully responsive website that is a prototype for a real business calle
 
 ## UX
 
-My objective for this website was to create an online presence and persuade visitors to either book a room or make contact. It was given a minimalistic design so that it was simple and intuitive for users to interact with. I chose a mobile first approach because most travellers would be using their mobile to look for rooms.
+My objective for this website was to create an online presence and persuade visitors to either book a room or make contact with the hostel. It was given a minimalistic design so that it was simple and intuitive for users to interact with. I chose a mobile first approach because most travellers would be using their mobile to look for rooms.
 
 
 I wanted to provide them with a small bit of info at the start to stop them from getting bored and to keep them interested with a video of what the local area is like. I gave them a quick view of the facilities available. At the end of the facilities section I placed a BOOK A ROOM button as a call to action. I wanted them to see feedback from other guests so they could judge from others experiences so I added a reviews section. I want guests to have a way to contact the hostel with any questions so I added a contact form and then contact info in the footer.
@@ -91,7 +91,7 @@ I designed the wireframe for a mobile version of the site. It helped me a lot to
 
 1. **Book a room:**
     1. Click the Reservation link in the navigation bar and it opens a new tab to HostelWorld.com
-    2. Click the BOOK A ROOM button above the reviews section and it opens a tew tab to HostelWorld.com
+    2. Click the BOOK A ROOM button above the reviews section and it opens a new tab to HostelWorld.com
     
 2. **Review section:**
     1. Scroll down to the reviews section and click the right indicator, this brings up the next review
@@ -179,6 +179,6 @@ The hero photo was taken by me.
 
 ### Acknowledgements
 
-The [getBootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) site helped me out tons with their documentation.
+The [getBootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/) site helped me out quite a lot with their documentation.
 
 I would like to thank Anna Greaves (CSS Fundamental Lead at the Code Institute) and my mentor Ravi Lakhotia for their feedback, tips, and advice throughout the project.
